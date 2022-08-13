@@ -11,6 +11,6 @@ WORKDIR /home/container
 
 COPY ./entrypoint.sh /entrypoint.sh
 
-RUN CHMOD 0700 entrypoint.sh
+RUN chmod 0700 /entrypoint.sh
 
 CMD ["/bin/ash", "/entrypoint.sh"]
