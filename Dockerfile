@@ -14,6 +14,4 @@ ENV HOME /home/container
 WORKDIR /home/container
 COPY ./entrypoint.sh /entrypoint.sh
 
-RUN CHMOD 0700 entrypoint.sh
-
 CMD ["/bin/ash", "/entrypoint.sh"]
