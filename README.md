@@ -13,6 +13,7 @@ How to use:
 Note: if u want it using a domain then create a reverse proxy on the host (an example will be added later)
 > 5. When installing Nextcloud, just use for the data directory a point "."
 
+
 Nextcloud egg forked and edited from https://github.com/finnie2006/ptero-eggs
 
 Nginx Original egg forked and edited from https://gitlab.com/tenten8401/pterodactyl-nginx
