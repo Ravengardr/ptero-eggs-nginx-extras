@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/bash
 rm -rf /home/container/tmp/*
 
 mkdir /home/container/logs/
