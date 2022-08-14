@@ -9,4 +9,5 @@ echo "Starting PHP-FPM..."
 echo "Starting Nginx..."
 /usr/sbin/nginx -c /home/container/nginx/nginx.conf
 echo "Nginx successfully started"
-systemctl restart nginx
+nginx -t
+nginx -s reload
