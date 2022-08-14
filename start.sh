@@ -1,6 +1,8 @@
 #!/bin/bash
 rm -rf /home/container/tmp/*
 
+sudo systemctl restart nginx
+
 mkdir /home/container/logs/
 
 echo "Starting PHP-FPM..."
