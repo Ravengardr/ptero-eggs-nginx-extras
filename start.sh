@@ -1,8 +1,6 @@
 #!/bin/bash
 rm -rf /home/container/tmp/*
 
-sudo systemctl restart nginx
-
 mkdir /home/container/logs/
 
 echo "Starting PHP-FPM..."
@@ -11,3 +9,4 @@ echo "Starting PHP-FPM..."
 echo "Starting Nginx..."
 /usr/sbin/nginx -c /home/container/nginx/nginx.conf
 echo "Nginx successfully started"
+systemctl restart nginx
